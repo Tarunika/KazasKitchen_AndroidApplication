@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage9"
+    android:scaleType = "centerCrop"
+    tools:context="com.blogtry.myretail.recipieblog.LoginActivity">
+
+    <EditText
+        android:id="@+id/loginEmailField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="Email ID..."
+        android:inputType="textEmailAddress"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/grey"
+        android:textColorLink="@android:color/background_light"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/loginPasswordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/loginEmailField"
+        android:layout_below="@+id/loginEmailField"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/input_outline"
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/grey"
+        android:textColorLink="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/common_google_signin_btn_text_dark_focused"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/loginPasswordField"
+        android:layout_alignStart="@+id/loginPasswordField"
+        android:layout_alignEnd="@+id/loginPasswordField" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/loginBtn"
+        android:layout_alignStart="@+id/loginBtn"
+        android:layout_below="@+id/loginBtn"
+        android:layout_marginTop="17dp"></com.google.android.gms.common.SignInButton>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/googleBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:background="@color/WhiteTransparent"
+
+        android:text="Sign Up"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="10dp"
+        android:text="--or--"
+        android:textColor="@android:color/darker_gray" />
+</android.widget.RelativeLayout>

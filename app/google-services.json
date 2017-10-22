@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "122022323932",
+    "firebase_url": "https://recipieblog-5882a.firebaseio.com",
+    "project_id": "recipieblog-5882a",
+    "storage_bucket": "recipieblog-5882a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122022323932:android:4eea96f13f0f12e6",
+        "android_client_info": {
+          "package_name": "com.blogtry.myretail.recipieblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122022323932-17idtecrv1qpg4gqaa54k3coa8t0ckqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogtry.myretail.recipieblog",
+            "certificate_hash": "88da9f90d3e8efe1f157ddaef30ada5d00977caf"
+          }
+        },
+        {
+          "client_id": "122022323932-4i062mgnl5edgdrovhribpsskbtc4b23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-sDRm9L936XB_FViVMfxheWyoipVNHCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122022323932-4i062mgnl5edgdrovhribpsskbtc4b23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

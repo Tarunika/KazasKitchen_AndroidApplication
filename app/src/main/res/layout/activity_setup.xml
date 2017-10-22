@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setupnameField"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blogtry.myretail.recipieblog.SetupActivity">
+
+    <ImageButton
+        android:id="@+id/setupImageBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:background="@color/WhiteTransparent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/setupaccount" />
+
+    <EditText
+        android:id="@+id/setupNameField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="71dp"
+        android:ems="10"
+        android:hint="Enter Your Name Here..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/setupSubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Setup" />
+</android.widget.RelativeLayout>
